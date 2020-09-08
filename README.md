@@ -5,7 +5,7 @@ Teacher's Doc - https://bit.ly/2YsxwEl
 ## Linux( Ubuntu )
 <pre>
 
-<em>< 2020.09.06 ></em>
+<h3>< 2020.09.06 ></h3>
 
 Concept
 ** Linux kernel >> Linux distribution(배포판) - Debian, Ubuntu
@@ -46,7 +46,7 @@ $ ip a
 - Access ubuntu nginx server from Host
     <em>* "Port forwarding" : To make, Can access to NAT network thorough PORT</em>
 
-<em>< 2020.09.07 ></em>
+<h3>< 2020.09.07 ></h3>
 
 - Ubuntu Server <-> Ubuntu Client
     * SSH (Under same NAT network)
@@ -63,4 +63,35 @@ un~ : /root % /home/{username}
 
 <em>- yaml</em>
 <a href="https://ko.wikipedia.org/wiki/YAML">* wiki</a>
+
+
+<h3>< 2020.09.08 ></h3>
+
+- RBAC(Role-Based Access Control)
+
+- chmod {사용자 유형} {+ or -} {권한} {파일명}
+- chown {소유자} {파일명}
+
+- Hard link and Symbolic link
+    * Hard link : inode 공유하고 있기떄문에 사실상 원본과 같음 
+    * Symbolic(soft) link : windows의 바로가기와 비슷
+- Foreground process and Background process
+
+- Daemon
+    * service = daemon = server process
+
+- Mirroring (archive)
+
+- Shell script (basic)
+    * all variable type are string 
+    * num4=`expr \( $num1 + 200 \) / 10 \* 2` >> example of integer expression
+    * Parameter :
+        <code>
+        #!/bin/sh
+        echo "file name is <$0>"
+        echo "parameter one is <$1>"
+        echo "parameter two is <$2>"
+        exit 0
+        </code>
+
 </pre>
