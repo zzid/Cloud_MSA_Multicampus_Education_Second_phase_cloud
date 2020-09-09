@@ -123,9 +123,9 @@ Dev(개발)과 Ops(운용)이 긴밀히 협조,연계하여 비즈니스 가치�
 
 - [https://sasperger.tistory.com/136](https://sasperger.tistory.com/136) (애자일 SW개발 101.pdf)
 
-- Infrastructure As A Code [ IAAC ] ?
+- Infrastructure As A Code [ IaC ] ?
 
-  >> Infrastructure를 code를 통해서 관리가 가능하다면? 
+  > Infrastructure를 code를 통해서 관리가 가능하다면? 
 
 ## Use Vagrant : local 개발 환경의 Infrastructure as Code화
 
@@ -141,7 +141,7 @@ Dev(개발)과 Ops(운용)이 긴밀히 협조,연계하여 비즈니스 가치�
   vagrant init
   ```
 
-  >> Vagrantfile
+  > Vagrantfile
 
 - After set up Vagrantfile
 
