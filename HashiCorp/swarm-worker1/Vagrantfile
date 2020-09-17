@@ -8,3 +8,4 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder ".", "/vagrant", disable: true
   # config.vm.provision "shell", inline: $script
 end
+
