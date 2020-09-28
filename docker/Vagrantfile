@@ -6,3 +6,26 @@ Vagrant.configure("2") do |config|
   config.vm.hostname="xenial64"
   config.vm.synced_folder ".", "/vagrant_data", disabled:true
 end
+
+# docker-compose.yml 
+version: "3.3"
+services:
+  backend:
+    image: likeyu96/django-docker
+    ports:
+      - "8000:8000"
+    restart: always
+  frontend:
+    image: zzid/safehome-fe
+    ports:
+      - "80:80"
+    restart: always
+    
+
+    environment:
+      - DATABASE_HOST=$MACHINE_HOST
+
+docker inspect -f "{{.NetworkSettings.IPAddress}}" f4dd62c90491
+
+docker container rm -f $(docker container ps -aq)
+docker image rm -f $(docker image ls -aq)

@@ -1,8 +1,8 @@
 # Second phase of the education program
-
 Teacher's Doc - https://bit.ly/2YsxwEl
 
-- TIL
+
+## TIL
   - [Linux 2020_09_06](./TIL/2020_09_06)
   - [Linux 2020_09_07](./TIL/2020_09_07)
   - [Linux and shell 2020_09_08](./TIL/2020_09_08)
