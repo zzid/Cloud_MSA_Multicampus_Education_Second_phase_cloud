@@ -1,5 +1,5 @@
 # Second phase of the education program
-Teacher's Doc - https://bit.ly/2YsxwEl
+
 
 
 ## TIL
